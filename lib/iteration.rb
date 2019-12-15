@@ -12,7 +12,10 @@ def find_greater_pair(src)
   array = [] 
     row = 0 
       while row < src.length do   
-          if src[row][0] >  
+          if src[row][0] > src[row][1]
+            src[row][0]
+          else src[row][1]
+            row += 1 
   
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
