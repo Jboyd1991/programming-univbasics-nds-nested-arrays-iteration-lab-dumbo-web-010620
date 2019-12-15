@@ -16,6 +16,8 @@ def find_greater_pair(src)
             array.push(src[row][0])
           else array.push(src[row][1])
             row += 1 
+end 
+  array 
   
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
