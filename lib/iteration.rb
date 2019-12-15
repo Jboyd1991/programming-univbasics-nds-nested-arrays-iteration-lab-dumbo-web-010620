@@ -10,7 +10,8 @@ end
 
 def find_greater_pair(src)
   array = [] 
-    
+    row = 0 
+      
   
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
