@@ -3,6 +3,7 @@ def join_ingredients(src)
     row = 0 
       while row < length.src do 
         array.push("I love #{src[row][0]} and #src{row][1] on my pizza")
+            row += 1 
         
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
