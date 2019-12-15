@@ -1,7 +1,7 @@
 def join_ingredients(src)
   array = [] 
     row = 0 
-      while row < length.src do 
+      while row < src.length do 
         array.push("I love #{src[row][0]} and #src{row][1] on my pizza")
             row += 1 
         
