@@ -13,8 +13,8 @@ def find_greater_pair(src)
     row = 0 
       while row < src.length do   
           if src[row][0] > src[row][1]
-            src[row][0]
-          else src[row][1]
+            array.push(src[row][0])
+          else array.push(src[row][1])
             row += 1 
   
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
